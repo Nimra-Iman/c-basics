@@ -21,10 +21,12 @@ class child : public parent {
 private:
     int s, d;
 public:
-    child(int n, int m, int x, int y) : parent(x, y) {
+    child(int n, int m, int s, int p) : parent(s, p) {
         s = n;
         d = m;
     }
+//    agr ap k pas parent ka constructor h to child ka constructor har hal m bnana
+//prta h, or parent k constructor k arguments bhi pas krny hoty hn
     void show_child() {
         cout << "inside child" << endl;
     }

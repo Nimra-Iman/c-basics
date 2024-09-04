@@ -13,7 +13,8 @@ template <typename T>T maxi(T a, T b){
 }
 int main(){
 	cout<<"among 2 and 3 max is : ";
-	cout<<maxi<int>(2,3);	
+	cout<<maxi<int>(2,3);
+	cout<<maxi<float>(2.3,3.5);	
 }
 
 
